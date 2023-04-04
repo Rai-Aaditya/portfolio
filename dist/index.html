@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nova+Round&family=Nunito:wght@300;400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    
     <title>Portfolio</title>
+  <link rel="stylesheet" href="/assets/index.381eb7c6.css">
 </head>
 
 <body id="body" class="font-nunito">
@@ -22,7 +23,7 @@
         <nav class="w-full fixed top-0 bg-white z-10 dark:bg-indigo-900">
             <div class="container mx-auto py-5 flex items-center justify-between">
                 <div class="flex items-center gap-2">
-                    <img class="w-8 rounded-full" src="./img/passport photo.jpg" alt="">
+                    <img class="w-8 rounded-full" src="/assets/passport photo.b80457e1.jpg" alt="">
                     <span class="text-2xl font-bold hover:bg-gray-700 text-amber-600 dark:text-white dark:hover:text-amber-500 hover:text-green-500 hover:rounded-md hover:p-1 font-nunito">PORTFOLIO</span>
                 </div>
                 <ul class="hidden md:flex space-x-10 text-amber-600 dark:text-white font-bold text-sm uppercase">
@@ -36,7 +37,7 @@
                     <li class="hover:bg-gray-700 dark:hover:bg-yellow-600 dark:hover:text-black  hover:text-green-500 hover:p-1 hover:rounded-md"><a href="#contact">contact</a>
                     </li>
                 </ul>
-                <img onclick="changeTheme()" src="./img/moon.png" class="hidden md:block w-5 cursor-pointer" alt="">
+                <img onclick="changeTheme()" src="data:image/png;base64,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" class="hidden md:block w-5 cursor-pointer" alt="">
                 <div id="hamburger" onclick="menuDisplay()" class="space-y-1 md:hidden cursor-pointer z-20">
                     <div class="w-6 h-0.5 bg-black"></div>
                     <div class="w-6 h-0.5 bg-black"></div>
@@ -55,7 +56,7 @@
         <!-- intro content -->
 
         <!-- image -->
-        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="./img/potrait.png" alt="" />
+        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="/assets/potrait.16084afb.png" alt="" />
         <!-- circle -->
         <div id="circle"
             class="hidden lg:block absolute -bottom-1/2 right-0 left-0 mx-auto w-big h-big bg-teal-200 rounded-full -z-10 opacity-40">
@@ -89,7 +90,7 @@
   <div id="about" class="px-10 dark:bg-cyan-900">
     <div class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20">
       <!-- left -->
-      <img src="./img/myphoto.png" alt="" />
+      <img src="/assets/myphoto.3915a50d.png" alt="" />
       <!-- right -->
       <div class="my-auto flex flex-col gap-3">
         <h1 class="text-amber-700 dark:text-amber-700 dark:text-2xl dark:font-extrabold font-bold">ABOUT ME</h1>
@@ -140,7 +141,7 @@
       <div class="p-5 sm:p-0 flex flex-wrap justify-between">
         <!-- card -->
         <div class="w-fit md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-          <img class="w-10" src="./img/icon.png" alt="" />
+          <img class="w-10" src="/assets/icon.f70c79aa.png" alt="" />
           <details>
             <summary class="font-medium text-lg dark:text-white">UX / UI Design</summary>
             <p class="text-gray-400">
@@ -152,7 +153,7 @@
         </div>
         <!-- card -->
         <div class="w-fit md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-          <img class="w-10" src="./img/icon.png" alt="" />
+          <img class="w-10" src="/assets/icon.f70c79aa.png" alt="" />
           <details>
             <summary class="font-medium text-lg dark:text-white">Web development</summary>
             <p class="text-gray-400">
@@ -165,7 +166,7 @@
 
         <!-- card -->
         <div class="w-fit md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
-          <img class="w-10" src="./img/icon.png" alt="" />
+          <img class="w-10" src="/assets/icon.f70c79aa.png" alt="" />
           <details>
             <summary class="font-medium text-lg dark:text-white">UX / UI Design</summary>
             <p class="text-gray-400">
@@ -195,35 +196,35 @@
       <div class="p-5 sm:p-0 flex flex-wrap justify-between">
         <!-- card -->
         <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110 hover:bg-black hover:p-1">
-          <a href="https://github.com/Rai-Aaditya/FOODFATAFAT"><img src="./img/foodfatafat.jpg" /></a>
+          <a href="https://github.com/Rai-Aaditya/FOODFATAFAT"><img src="/assets/foodfatafat.90e7b0a6.jpg" /></a>
         </div>
         <!-- card -->
         <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110 hover:bg-black hover:p-1">
-          <a href="https://github.com/Rai-Aaditya/Railway_Reservation"><img src="./img/railway.png" /></a>
+          <a href="https://github.com/Rai-Aaditya/Railway_Reservation"><img src="/assets/railway.3bb2722b.png" /></a>
         </div>
         <!-- card -->
         <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110 hover:bg-black hover:p-1">
-          <a href="https://best-selling-books-in-2023.netlify.app/"><img src="./img/bestbooks.png" /></a>
+          <a href="https://best-selling-books-in-2023.netlify.app/"><img src="/assets/bestbooks.9865d072.png" /></a>
         </div>
         <!-- card -->
         <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110 hover:bg-black hover:p-1">
-          <a href="https://expense-tracker-aditya-rai.netlify.app/"><img src="./img/expense.png" /></a>
+          <a href="https://expense-tracker-aditya-rai.netlify.app/"><img src="/assets/expense.101c47f7.png" /></a>
         </div>
         <!-- card -->
         <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110 hover:bg-black hover:p-1">
-          <a href="https://basic-calculator-by-aditya-rai.netlify.app/"><img src="./img/calci_light.png" /></a>
+          <a href="https://basic-calculator-by-aditya-rai.netlify.app/"><img src="/assets/calci_light.610ddc19.png" /></a>
         </div>
         <!-- card -->
         <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110 hover:bg-black hover:p-1">
-          <a href="https://tic-tac-toe-aditya-rai.netlify.app/"><img src="./img/tic_tac_toe.png" /></a>
+          <a href="https://tic-tac-toe-aditya-rai.netlify.app/"><img src="/assets/tic_tac_toe.e17f45ce.png" /></a>
         </div>
         <!-- card -->
         <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110 hover:bg-black hover:p-1">
-          <a href="https://github.com/Rai-Aaditya/Railway_Reservation"><img src="./img/railway.png" /></a>
+          <a href="https://github.com/Rai-Aaditya/Railway_Reservation"><img src="/assets/railway.3bb2722b.png" /></a>
         </div>
         <!-- card -->
         <div class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110 hover:bg-black hover:p-1">
-          <a href="https://github.com/Rai-Aaditya/Railway_Reservation"><img src="./img/railway.png" /></a>
+          <a href="https://github.com/Rai-Aaditya/Railway_Reservation"><img src="/assets/railway.3bb2722b.png" /></a>
         </div>
       </div>
     </div>
@@ -262,7 +263,7 @@
   <div class="w-full bg-indigo-900">
     <div class="container mx-auto py-5 flex items-center justify-between">
       <div class="flex items-center gap-2">
-        <img class="w-8 rounded-full" src="./img/logo.png" alt="" />
+        <img class="w-8 rounded-full" src="/assets/logo.40cebb5c.png" alt="" />
         <span class="text-2xl font-bold text-white dark:hover:text-amber-500 uppercase font-nunito hover:text-amber-500">Portfolio</span>
       </div>
       <span class="hidden md:block font-medium text-white dark:hover:text-yellow-500 hover:text-amber-500">© 2023 Portfolio. Design with ♥️ by Aditya Rai</span>
